@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class RefSolution_0Test {
     @Test
-    public static void main(String[] args) {
+    public void main(String[] args) {
         RefSolution_0 s = new RefSolution_0();
         List<Boolean> correct = Arrays.asList(
                 s.hasCloseElements(new ArrayList<>(Arrays.asList(11.0, 2.0, 3.9, 4.0, 5.0, 2.2)), 0.3),
