@@ -1,6 +1,4 @@
 package com.acme.basic;
-import java.util.*;
-import java.lang.*;
 
 public class HelloWorld {
 
