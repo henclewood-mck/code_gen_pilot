@@ -7,7 +7,7 @@ import org.junit.Test;
 public class GenSolution_0Test {
     @Test
     public void GenSolution_0Test() {
-        RefSolution_0 s = new RefSolution_0();
+        GenSolution_0 s = new GenSolution_0();
         List<Boolean> correct = Arrays.asList(
                 s.hasCloseElements(new ArrayList<>(Arrays.asList(11.0, 2.0, 3.9, 4.0, 5.0, 2.2)), 0.3),
                 !s.hasCloseElements(new ArrayList<>(Arrays.asList(1.0, 2.0, 3.9, 4.0, 5.0, 2.2)), 0.05),
